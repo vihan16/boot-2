@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    
+}
+body{
+    position: relative;
+}
+
+nav .form-control{
+    border: none;   
+}
+nav svg{
+    margin-top: 7px;
+}
+
+/* header{
+    width: 300px;
+} */
+
+header{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    background-image: url(/img/sandra-filipe-ifpd6d-cGAU-unsplash.jpg);
+}
+
+/* header .heading { */
+    /* background-image: url(/img/sandra-filipe-ifpd6d-cGAU-unsplash.jpg); */
+    /* text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 20%; */
+/* } */
+.main-heading{
+    background-image:linear-gradient(103.24deg, rgba(6, 6, 6, 0.9) 23.83%, rgba(6, 6, 6, 0.908) 23.1%), url(/img/jeff-sheldon-9dI3g8owHiI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-y: hidden;
+    height: 100vh;
+}
+/* .service-heading{
+    height: 90vh;
+} */
+.experience-heading{
+    background-image: linear-gradient(103.24deg, rgba(255, 238, 0, 0.685) 23.83%, rgba(255, 238, 0, 0.674) 23.1%),url(/img/campaign-creators-gMsnXqILjp4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* .service-heading .card-body1{
+    background-image: url(/img/daniel-korpai-iopITwyUcTA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+} */
+.gallery{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: fit-content;
+    background-image: url(/img/david-werbrouck-5GwLlb-_UYk-unsplash.jpg);
+}
+.newslatter{
+    background-image: url(/img/adeolu-eletu-E7RLgUjjazc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
